@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/icon-star.svg">
+  <link rel="stylesheet" href="./styles/styles.css">:
+  
+  <title> Interactive rating component</title>
+</head>
+<body>
+  <main>
+    <form class="card-container">
+      <div class="star-container">
+        <img src="./images/icon-star.svg" alt="Star Icon">
+      </div>
+      <h1 class="card-title">How did we do?</h1>
+      <p class="card-text">
+        Please let us know how we did with your support request. All feedback is appreciated 
+         to help us improve our offering!
+      </p>
+      <div class="card-buttons">
+        <button class="btn" data-rate="1">1</button>
+        <button class="btn" data-rate="2">2</button>
+        <button class="btn" data-rate="3">3</button>
+        <button class="btn" data-rate="4">4</button>
+        <button class="btn" data-rate="5">5</button>
+      </div>
+
+      <button type="submit" class="submit">submit</button>
+    </form>
+
+    <div class="card-container hidden">
+      <div class="img-container">
+        <img src="./images/illustration-thank-you.svg" alt="">
+      </div>
+      <div class="selection">
+        <p>
+          
+        </p>
+      </div>
+      <h1 class="card-title center">Thank you!</h1>
+      <p class="card-text center">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </p>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/oscarmartinez761">Oscar Martinez</a>.
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
