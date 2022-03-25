@@ -32,9 +32,10 @@ body {
     font-family: 'Overpass', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: calc(100vh - 0.1px)
+    height: calc(100vh - 0.1px);
+   
 }
 
 img {
@@ -79,7 +80,7 @@ img {
     margin: 0 1rem;
     padding: 1rem;
     max-width: 350px;
-    
+
 }
 
 
